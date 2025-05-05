@@ -70,6 +70,11 @@ const Hero = () => {
                   Hire Me <ArrowRight size={16} className="ml-2" />
                 </a>
               </Button>
+              <Button className="bg-green-600 hover:bg-green-700 text-white">
+                <a href="https://drive.google.com/file/d/1Q6qYx2XHLelapCZ8XvdMlg0lzjPOATro/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="flex items-center">
+                  Download Resume <ArrowRight size={16} className="ml-2" />
+                </a>
+              </Button>
               <div className="flex gap-4 justify-center md:justify-start">
                 <Button variant="outline" size="icon" asChild>
                   <a href="https://github.com/MuditxRajput" target="_blank" rel="noopener noreferrer">

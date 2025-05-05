@@ -1,9 +1,9 @@
 "use client"
 
-import { useState, useEffect } from "react"
-import Link from "next/link"
-import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { Menu, X } from "lucide-react"
+import Link from "next/link"
+import { useEffect, useState } from "react"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -56,7 +56,7 @@ const Navbar = () => {
                 </Link>
               ))}
               <Button className="bg-gray-900 hover:bg-gray-800 text-white">
-                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/1Q6qYx2XHLelapCZ8XvdMlg0lzjPOATro/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                   Resume
                 </a>
               </Button>
@@ -90,7 +90,7 @@ const Navbar = () => {
               </Link>
             ))}
             <Button className="w-full bg-gray-900 hover:bg-gray-800 text-white mt-2">
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="w-full">
+              <a href="https://drive.google.com/file/d/1Q6qYx2XHLelapCZ8XvdMlg0lzjPOATro/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="w-full">
                 Resume
               </a>
             </Button>

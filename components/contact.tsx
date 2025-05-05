@@ -156,6 +156,14 @@ const Contact = () => {
                 >
                   Email Me
                 </a>
+                <a
+                  href="https://drive.google.com/file/d/1Q6qYx2XHLelapCZ8XvdMlg0lzjPOATro/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-700 transition-colors"
+                >
+                  Download Resume
+                </a>
               </div>
             </div>
           </motion.div>
